@@ -39,5 +39,3 @@
 - import cost
 - Prisma- Tailwind CSS Intellisense
 - Total TypeScript
-
-## Update Settings
