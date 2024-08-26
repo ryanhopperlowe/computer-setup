@@ -8,6 +8,12 @@ This script will install all the necessary software to get a fresh Mac up and ru
 - git
 - zsh
 
+## Running the Script
+
+- clone the repo
+- cd into the repo
+- `$ bash install.bash`
+
 ## Features
 
 Sets up .zshrc to be split into multiple file

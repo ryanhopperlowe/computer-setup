@@ -1,4 +1,4 @@
-ZSHRC=~/.zshrc2
+ZSHRC=~/.zshrc
 touch $ZSHRC
 cp ./.zshrc $ZSHRC
 
@@ -9,19 +9,19 @@ ls zshrc
 
 # Install Homebrew
 
-# /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 cp zshrc/init.sh $HOME/zshrc/init.sh
 source $ZSHRC
 
-brew install gh
-brew install --cask amethyst
 
 # Install NVM
-
 brew install nvm
 cp ./zshrc/nvm.sh ~/zshrc/nvm.sh
 
+# Install Miscellaneous Tools
+brew install gh
+brew install --cask amethyst
 brew install thefuck
 brew install starship
 cp ./zshrc/bash.sh ~/zshrc/bash.sh
@@ -30,6 +30,7 @@ cp ./zshrc/bash.sh ~/zshrc/bash.sh
 brew install --cask visual-studio-code
 cp ./zshrc/vscode.sh ~/zshrc/vscode.sh
 
+# Install Go
 brew install go
 cp ./zshrc/go.sh ~/zshrc/go.sh
 
@@ -41,10 +42,8 @@ nvm install --lts
 nvm use --lts
 node -v
 
-npm i -g bun
-npm i -g yarn
+# npm i -g bun
+# npm i -g yarn
 npm i -g vercel
-
-mkdir ~/workspace
 
 code ~/zshrc

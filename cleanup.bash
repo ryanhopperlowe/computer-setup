@@ -1,2 +1,2 @@
-rm ~/.zshrc2
+rm ~/.zshrc
 rm -rf ~/zshrc
