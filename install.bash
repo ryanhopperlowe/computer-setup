@@ -36,6 +36,7 @@ cp ./zshrc/go.sh ~/zshrc/go.sh
 # Install Desktop Applications
 brew install --casc arc
 brew install --cask postman
+brew install --cask discord
 
 source $ZSHRC
 
