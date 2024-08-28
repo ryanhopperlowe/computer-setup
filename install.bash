@@ -21,7 +21,6 @@ cp ./zshrc/nvm.sh ~/zshrc/nvm.sh
 
 # Install Miscellaneous Tools
 brew install gh
-brew install --cask amethyst
 brew install thefuck
 brew install starship
 cp ./zshrc/bash.sh ~/zshrc/bash.sh
@@ -33,6 +32,10 @@ cp ./zshrc/vscode.sh ~/zshrc/vscode.sh
 # Install Go
 brew install go
 cp ./zshrc/go.sh ~/zshrc/go.sh
+
+# Install Desktop Applications
+brew install --casc arc
+brew install --cask postman
 
 source $ZSHRC
 
