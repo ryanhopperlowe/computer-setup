@@ -38,6 +38,7 @@ brew install --cask arc
 brew install --cask postman
 brew install --cask discord
 brew install --cask rectangle
+brew install --cask logitech-options
 brew install raycast
 
 source $ZSHRC
