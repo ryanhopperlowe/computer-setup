@@ -49,8 +49,8 @@ nvm install --lts
 nvm use --lts
 node -v
 
-# npm i -g bun
 # npm i -g yarn
+npm i -g bun
 npm i -g vercel
 
 code ~/zshrc
