@@ -37,7 +37,6 @@ cp ./zshrc/go.sh ~/zshrc/go.sh
 brew install --cask arc
 brew install --cask postman
 brew install --cask discord
-brew install --cask rectangle
 brew install --cask logitech-options
 brew install raycast
 
