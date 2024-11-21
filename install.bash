@@ -25,9 +25,11 @@ brew install thefuck
 brew install starship
 cp ./zshrc/bash.sh ~/zshrc/bash.sh
 
-# Install VS Code Extensions
-brew install --cask visual-studio-code
-cp ./zshrc/vscode.sh ~/zshrc/vscode.sh
+# Install Editor
+brew install --cask cursor
+
+# brew install --cask visual-studio-code
+# cp ./zshrc/vscode.sh ~/zshrc/vscode.sh
 
 # Install Go
 brew install go
@@ -49,7 +51,9 @@ nvm use --lts
 node -v
 
 # npm i -g yarn
-npm i -g bun
-npm i -g vercel
+# npm i -g bun
+# npm i -g vercel
+npm i -g pnpm
+npm i -g shadcn-ui
 
 code ~/zshrc
