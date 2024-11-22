@@ -54,6 +54,8 @@ node -v
 # npm i -g bun
 # npm i -g vercel
 npm i -g pnpm
+cp ./zshrc/pnpm.sh ~/zshrc/pnpm.sh
+
 npm i -g shadcn-ui
 
 code ~/zshrc
